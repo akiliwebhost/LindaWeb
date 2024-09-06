@@ -687,5 +687,6 @@ nav .fa {
 	.text-box h1 {
 		font-size: 14px;
 		margin-bottom: 100px;
+		word-spacing: 15px;
 	}
 }
