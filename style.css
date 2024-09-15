@@ -583,6 +583,47 @@ nav .fa {
 	white-space: nowrap;
 }
 
+.footer .icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.footer .icons img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	max-height: 500px;
+	/* Further increased from 250px */
+}
+
+@media screen and (max-width: 1024px) {
+	.footer .icons img {
+		max-height: 250px;
+		/* Further increased from 200px */
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.footer .icons img {
+		max-height: 220px;
+		/* Further increased from 180px */
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.footer .icons img {
+		max-height: 180px;
+		/* Further increased from 150px */
+	}
+}
+
+
+
+
+
 .at-social {
 	display: flex;
 	justify-content: center;
